@@ -22,6 +22,11 @@ datetime variables @start_time and @end_time
 
 it logs the whole batch execution time using two datetime variables
 @batch_start_time and @batch_end_time
+
+Parameters: None.
+
+Usage Example: 
+	EXEC bronze.load_bronze;
 */
 
 USE Datawarehouse;
